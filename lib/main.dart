@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:spot_light/homepages/create_page.dart';
+import 'package:spot_light/homepages/main_navigation_page.dart';
 import 'home_page.dart';
 
 void main() {
@@ -11,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: MainNavigationPage(),
     );
   }
 }
