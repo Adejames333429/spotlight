@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:spot_light/homepages/profile_page.dart';
 import 'package:spot_light/homepages/talent_organizer_home.dart';
 
 import 'create_page.dart';
+import 'inbox_page.dart';
 
 class MainNavigationPage extends StatefulWidget {
   @override
@@ -15,8 +17,8 @@ class _MainNavigationPageState extends State<MainNavigationPage> {
   final List<Widget> _screens = [
     TalentOrganizerHome(),
     CreatePage(),
-    // InboxScreen(),
-    // ProfileScreen(),
+    InboxPage(),
+    ProfilePage(),
     // MenuScreen(),
   ];
 

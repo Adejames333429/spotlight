@@ -104,7 +104,7 @@ class _CreatePageState extends State<CreatePage> {
                       child: Padding(
                         padding: const EdgeInsets.symmetric(
                           horizontal: 40.0,
-                          vertical: 6.0,
+                          vertical: 3.0,
                         ),
                         child: Text(
                           'Browse',
